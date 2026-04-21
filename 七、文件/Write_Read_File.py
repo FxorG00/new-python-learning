@@ -15,6 +15,6 @@ print(file.readline(),end="") # 读一行数据，换行也读了
 print(file.readline(),end="")
 """
 # print(file.readlines()) # 读取所有行，搞成个列表
-print(type(file.read()))
+print(type(file.read())) # type: str
 
 file.close()
